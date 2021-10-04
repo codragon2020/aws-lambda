@@ -19,7 +19,7 @@ service: python-example-environment-variables
 
 provider:
   name: aws
-  runtime: python2.7
+  runtime: python3.8
   region: us-east-1
   profile: serverless-admin
 # you can define service wide environment variables here
