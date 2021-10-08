@@ -19,7 +19,7 @@ service: python-s3-thumbnail
 
 provider:
   name: aws
-  runtime: python2.7
+  runtime: python3.8
   region: us-east-1
   profile: serverless-admin
   timeout: 10
@@ -33,7 +33,7 @@ provider:
      THUMBNAIL_SIZE: "128"
 
 custom:
-  bucket: stephane-s3-thumbnail-generator
+  bucket: heptapbus-s3-thumbnail-generator
   pythonRequirements:
    dockerizePip: true
 
